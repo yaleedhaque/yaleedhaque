@@ -1,4 +1,4 @@
-<div align="center">
+﻿<div align="center">
 
 <!-- HEADER BANNER -->
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:0969da,100:1f6feb&height=220&section=header&text=Yaleed%20Haque&fontSize=50&fontColor=ffffff&fontAlignY=35&desc=Developer%20%7C%20Builder%20%7C%20Problem%20Solver&descSize=18&descAlignY=55&animation=fadeIn&duration=1000" width="100%"/>
@@ -19,7 +19,7 @@
 <br/>
 
 <!-- VISITORS COUNTER -->
-<img src="https://komarev.github.io/ghprofile-counter/octo.svg?username=yaleedhaque" alt="Profile views" />
+<img src="https://visitor-badge.laobi.icu/badge?page_id=yaleedhaque.yaleedhaque" alt="Profile views" />
 
 </div>
 
@@ -75,12 +75,12 @@
 
 <table>
 <tr>
-<td><img src="https://github-readme-stats.vercel.app/api?username=yaleedhaque&show_icons=true&theme=radical&hide_border=true&include_all_commits=true&count_private=true" width="400" alt="GitHub Stats" /></td>
-<td><img src="https://github-readme-stats.vercel.app/api/top-langs/?username=yaleedhaque&layout=compact&theme=radical&hide_border=true&langs_count=8" width="400" alt="Top Languages" /></td>
+<td><img src="https://github-readme-stats-kohl.vercel.app/api?username=yaleedhaque&show_icons=true&theme=radical&hide_border=true&include_all_commits=true&count_private=true" width="400" alt="GitHub Stats" /></td>
+<td><img src="https://github-readme-stats-kohl.vercel.app/api/top-langs/?username=yaleedhaque&layout=compact&theme=radical&hide_border=true&langs_count=8" width="400" alt="Top Languages" /></td>
 </tr>
 <tr>
 <td><img src="https://github-readme-streak-stats.herokuapp.com/?user=yaleedhaque&theme=radical&hide_border=true" width="400" alt="Streak Stats" /></td>
-<td><img src="https://github-profile-trophy.vercel.app/?username=yaleedhaque&theme=radical&no-frame=true&no-bg=true&column=7" width="400" alt="Trophy" /></td>
+<td><img src="https://github-profile-trophy-alpha.vercel.app/?username=yaleedhaque&theme=radical&no-frame=true&no-bg=true&column=7" width="400" alt="Trophy" /></td>
 </tr>
 </table>
 
@@ -94,23 +94,19 @@
 
 ---
 
-## 🐍 Contribution Snake
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/yaleedhaque/yaleedhaque/output/github-snake-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/yaleedhaque/yaleedhaque/output/github-snake.svg" />
-  <img alt="github-snake" src="https://raw.githubusercontent.com/yaleedhaque/yaleedhaque/output/github-snake-dark.svg" />
-</picture>
-
----
-
 ## 🏆 Featured Projects
 
+<a href="https://github.com/yaleedhaque/StarkAgent">
+  <img align="center" src="https://github-readme-stats-kohl.vercel.app/api/pin/?username=yaleedhaque&repo=StarkAgent&theme=radical&hide_border=true" />
+</a>
+<a href="https://github.com/yaleedhaque/GamePadEcosystem">
+  <img align="center" src="https://github-readme-stats-kohl.vercel.app/api/pin/?username=yaleedhaque&repo=GamePadEcosystem&theme=radical&hide_border=true" />
+</a>
 <a href="https://github.com/yaleedhaque/Edge-project">
-  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=yaleedhaque&repo=Edge-project&theme=radical&hide_border=true" />
+  <img align="center" src="https://github-readme-stats-kohl.vercel.app/api/pin/?username=yaleedhaque&repo=Edge-project&theme=radical&hide_border=true" />
 </a>
 <a href="https://github.com/yaleedhaque/dgll">
-  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=yaleedhaque&repo=dgll&theme=radical&hide_border=true" />
+  <img align="center" src="https://github-readme-stats-kohl.vercel.app/api/pin/?username=yaleedhaque&repo=dgll&theme=radical&hide_border=true" />
 </a>
 
 ---
