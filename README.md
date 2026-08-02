@@ -1,150 +1,43 @@
-﻿<div align="center">
+﻿# Md. Yaleed Haque
 
-<!-- HEADER BANNER -->
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:0969da,100:1f6feb&height=220&section=header&text=Yaleed%20Haque&fontSize=50&fontColor=ffffff&fontAlignY=35&desc=Developer%20%7C%20Builder%20%7C%20Problem%20Solver&descSize=18&descAlignY=55&animation=fadeIn&duration=1000" width="100%"/>
+**C#/.NET & Kotlin developer · Local-first systems · Dhaka, Bangladesh**
 
-<!-- TYPING ANIMATION -->
-<a href="https://git.io/typing-svg">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=58A6FF&center=true&vCenter=true&width=600&lines=Full-Stack+Developer;AI+%26+ML+Enthusiast;Building+Offline+Gamepad+Ecosystem;Open+Source+Contributor;Always+Learning" alt="Typing SVG" />
-</a>
+<p align="left">
+  <img alt="C# .NET 8" src="https://img.shields.io/badge/C%23-.NET%208-512BD4?logo=csharp&logoColor=white">
+  <img alt="Kotlin" src="https://img.shields.io/badge/Kotlin-Compose-7F52FF?logo=kotlin&logoColor=white">
+  <img alt="Android" src="https://img.shields.io/badge/Android-3DDC84?logo=android&logoColor=white">
+  <img alt="AI Agents" src="https://img.shields.io/badge/AI-Agents-00E5FF">
+  <img alt="GitHub Pages" src="https://img.shields.io/badge/GitHub%20Pages-portfolio-181717?logo=github&logoColor=white">
+</p>
 
-<br/>
-<br/>
+## About Me
 
-<!-- SOCIAL ICONS -->
-<a href="https://github.com/yaleedhaque" target="_blank"><img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"></a>
-<a href="mailto:yaleedhaque@gmail.com" target="_blank"><img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"></a>
+I'm **Md. Yaleed Haque**, a C#/.NET and Kotlin developer from Bangladesh — Dhaka, with roots in Pabna and Dinajpur. I build **local-first software**: offline multiplayer systems, virtual input devices, and AI desktop automation. I work close to the metal — UDP sockets, Win32 APIs, sensor streams — because code that runs on your own network needs no cloud, no accounts, and no latency to spare.
 
-<br/>
-<br/>
+## Featured Projects
 
-<!-- VISITORS COUNTER -->
-<img src="https://visitor-badge.laobi.icu/badge?page_id=yaleedhaque.yaleedhaque" alt="Profile views" />
+| Project | What it does | Stack |
+| --- | --- | --- |
+| [GamePadEcosystem](https://github.com/yaleedhaque/GamePadEcosystem) | Android phones become wireless Xbox 360 controllers for Windows. Zero cloud, sub-5ms latency, up to 8 players on one PC. | C# / .NET 8, Kotlin / Compose, UDP, ViGEmBus |
+| [StarkAgent](https://github.com/yaleedhaque/StarkAgent) | AI desktop control agent — 275+ commands that move the mouse, type, read the screen, and drive apps over a local TCP/JSON API. | C# / .NET 8, Win32, OCR, TCP |
+| [dgll](https://github.com/yaleedhaque/dgll) | Distributed Graph Learning Library — training over graphs too large for a single machine. | Distributed systems, ML |
+| [Edge-project](https://github.com/yaleedhaque/Edge-project) | Experimental front-end work. | HTML |
 
-</div>
+## Tech Stack
 
----
+- **Languages:** C#, Kotlin, HTML
+- **Frameworks:** .NET 8, Jetpack Compose
+- **Platforms:** Windows (Win32, ViGEm, SendInput), Android (minSdk 26+)
+- **Networking:** UDP, TCP, custom binary wire protocols
 
-## 🧑‍💻 About Me
+## Currently Working On
 
-> *"I don't just write code — I engineer solutions that work offline, at scale, and without compromise."*
+- GamePadEcosystem — multi-player virtual gamepads for local co-op
+- StarkAgent — expanding the AI desktop control agent
+- My portfolio: [yaleedhaque.github.io](https://yaleedhaque.github.io)
 
-- 🔭 Currently building the **GamePadEcosystem** — an offline multiplayer virtual gamepad system (Android phones → Xbox 360 controllers via PC)
-- 🌱 Deep diving into **.NET 8**, **AI Agents**, **Windows Internals**, and **Systems Programming**
-- 💡 Passionate about **offline-first** architecture, **low-latency** systems, and **creative engineering**
-- 🛠️ I build tools that give AI agents real control over Windows desktops
-- ⚡ Fun fact: My AI assistant has its own desktop automation agent with 49 commands
+## Connect
 
----
-
-## 🛠️ Tech Stack
-
-<div align="center">
-
-**Languages & Frameworks**
-
-![C#](https://img.shields.io/badge/C%23-239120?style=for-the-badge&logo=csharp&logoColor=white)
-![.NET](https://img.shields.io/badge/.NET-8-512BD4?style=for-the-badge&logo=dotnet&logoColor=white)
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![Kotlin](https://img.shields.io/badge/Kotlin-7F52FF?style=for-the-badge&logo=kotlin&logoColor=white)
-![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
-
-**AI & ML**
-
-![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white)
-![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white)
-![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white)
-
-**Tools & Platforms**
-
-![Windows](https://img.shields.io/badge/Windows-0078D6?style=for-the-badge&logo=windows&logoColor=white)
-![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
-![Android](https://img.shields.io/badge/Android-3DDC84?style=for-the-badge&logo=android&logoColor=white)
-![Jupyter](https://img.shields.io/badge/Jupyter-F37626?style=for-the-badge&logo=jupyter&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
-![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
-
-</div>
-
----
-
-## 📊 GitHub Stats
-
-<div align="center">
-
-<table>
-<tr>
-<td><img src="https://github-readme-stats-kohl.vercel.app/api?username=yaleedhaque&show_icons=true&theme=radical&hide_border=true&include_all_commits=true&count_private=true" width="400" alt="GitHub Stats" /></td>
-<td><img src="https://github-readme-stats-kohl.vercel.app/api/top-langs/?username=yaleedhaque&layout=compact&theme=radical&hide_border=true&langs_count=8" width="400" alt="Top Languages" /></td>
-</tr>
-<tr>
-<td><img src="https://github-readme-streak-stats.herokuapp.com/?user=yaleedhaque&theme=radical&hide_border=true" width="400" alt="Streak Stats" /></td>
-<td><img src="https://github-profile-trophy-alpha.vercel.app/?username=yaleedhaque&theme=radical&no-frame=true&no-bg=true&column=7" width="400" alt="Trophy" /></td>
-</tr>
-</table>
-
-</div>
-
----
-
-## 📈 Activity Graph
-
-[![Yaleed's github activity graph](https://github-readme-activity-graph.vercel.app/graph?username=yaleedhaque&theme=redical&hide_border=true&area=true)](https://github.com/ashutosh00710/github-readme-activity-graph)
-
----
-
-## 🏆 Featured Projects
-
-<a href="https://github.com/yaleedhaque/StarkAgent">
-  <img align="center" src="https://github-readme-stats-kohl.vercel.app/api/pin/?username=yaleedhaque&repo=StarkAgent&theme=radical&hide_border=true" />
-</a>
-<a href="https://github.com/yaleedhaque/GamePadEcosystem">
-  <img align="center" src="https://github-readme-stats-kohl.vercel.app/api/pin/?username=yaleedhaque&repo=GamePadEcosystem&theme=radical&hide_border=true" />
-</a>
-<a href="https://github.com/yaleedhaque/Edge-project">
-  <img align="center" src="https://github-readme-stats-kohl.vercel.app/api/pin/?username=yaleedhaque&repo=Edge-project&theme=radical&hide_border=true" />
-</a>
-<a href="https://github.com/yaleedhaque/dgll">
-  <img align="center" src="https://github-readme-stats-kohl.vercel.app/api/pin/?username=yaleedhaque&repo=dgll&theme=radical&hide_border=true" />
-</a>
-
----
-
-## 🎯 Currently Working On
-
-```
-🎮 GamePadEcosystem   — Offline multiplayer virtual gamepad (Android → Xbox 360)
-🤖 StarkAgent         — AI desktop control agent (49 commands, TCP/JSON)
-🌐 Cloudflare Tunnel  — Remote access infrastructure
-📊 ML Projects        — Jupyter notebooks with TensorFlow & PyTorch
-```
-
----
-
-## 💡 Philosophy
-
-<div align="center">
-
-*"The best systems are the ones that work without the internet, without the cloud, and without compromise."*
-
-</div>
-
----
-
-<div align="center">
-
-### 📫 Let's Connect
-
-<br/>
-
-<a href="https://github.com/yaleedhaque">
-  <img src="https://img.shields.io/badge/Follow-100000?style=social&logo=github" alt="GitHub Follow">
-</a>
-
-<br/>
-<br/>
-
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:0969da,100:1f6feb&height=120&section=footer" width="100%"/>
-
-</div>
+- Portfolio: [yaleedhaque.github.io](https://yaleedhaque.github.io)
+- GitHub: [github.com/yaleedhaque](https://github.com/yaleedhaque)
+- Email: [yaleedhaque@gmail.com](mailto:yaleedhaque@gmail.com)
