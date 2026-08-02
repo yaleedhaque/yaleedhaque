@@ -1,6 +1,6 @@
 ﻿<h1 align="center">
   <a href="https://yaleedhaque.github.io">
-    <img src="https://yaleedhaque.github.io/banner.svg" width="100%" alt="Md. Yaleed Haque — C#/.NET and Kotlin developer, Dhaka, Bangladesh. Local-first systems: virtual gamepads and AI desktop automation.">
+    <img src="https://yaleedhaque.github.io/banner.png" width="100%" alt="Md. Yaleed Haque — C#/.NET and Kotlin developer, Dhaka, Bangladesh. Local-first systems: virtual gamepads and AI desktop automation.">
   </a>
 </h1>
 
