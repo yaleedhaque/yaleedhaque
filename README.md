@@ -7,7 +7,7 @@
   <br>
   <strong style="font-size:1.2rem">Md. Yaleed Haque</strong>
   <br>
-  <em>Local-first systems · Offline multiplayer · AI desktop automation · Distributed ML</em>
+  <em>Local-first systems · Offline multiplayer · AI desktop automation</em>
 </h1>
 
 <p align="center">
