@@ -1,6 +1,6 @@
-﻿<h1 align="center">
+<h1 align="center">
   <a href="https://yaleedhaque.github.io">
-    <img src="https://yaleedhaque.github.io/banner.png" width="100%" alt="Md. Yaleed Haque — C#/.NET and Kotlin developer, Dhaka, Bangladesh. Local-first systems: virtual gamepads and AI desktop automation.">
+    <img src="https://yaleedhaque.github.io/banner.png" width="100%" alt="Md. Yaleed Haque — C#/.NET and Kotlin developer, Dhaka, Bangladesh. Local-first systems: virtual gamepads and AI desktop agents.">
   </a>
 </h1>
 
@@ -17,16 +17,17 @@
 
 ## About Me
 
-I'm **Md. Yaleed Haque**, a C#/.NET and Kotlin developer from Bangladesh — Dhaka, with roots in Pabna and Dinajpur. I build **local-first software**: offline multiplayer systems, virtual input devices, and AI desktop automation. I work close to the metal — UDP sockets, Win32 APIs, sensor streams — because code that runs on your own network needs no cloud, no accounts, and no latency to spare.
+I'm **Md. Yaleed Haque**, a C#/.NET and Kotlin developer from Bangladesh — Dhaka, with roots in Pabna and Dinajpur. I build **local-first software**: offline multiplayer systems, virtual input devices, and AI desktop agents. All my projects prioritize **zero-cloud dependency**, **low-latency communication**, and **end-user control**.
 
 ## Featured Projects
 
 | Project | What it does | Stack |
 | --- | --- | --- |
-| [GamePadEcosystem](https://github.com/yaleedhaque/GamePadEcosystem) | Android phones become wireless Xbox 360 controllers for Windows. Zero cloud, sub-5ms latency, up to 8 players on one PC. | C# / .NET 8, Kotlin / Compose, UDP, ViGEmBus |
-| [StarkAgent](https://github.com/yaleedhaque/StarkAgent) | AI desktop control agent — 275+ commands that move the mouse, type, read the screen, and drive apps over a local TCP/JSON API. | C# / .NET 8, Win32, OCR, TCP |
-| [dgll](https://github.com/yaleedhaque/dgll) | Distributed Graph Learning Library — training over graphs too large for a single machine. | Distributed systems, ML |
-| [Edge-project](https://github.com/yaleedhaque/Edge-project) | Experimental front-end work. | HTML |
+| [GamePadEcosystem](https://github.com/yaleedhaque/GamePadEcosystem) | Android phones become wireless Xbox 360 controllers for Windows. Zero cloud, sub-5ms latency, up to 8 players on one PC. | C# / .NET 8, Kotlin, Jetpack Compose, UDP, ViGEm |
+| [StarkAgent](https://github.com/yaleedhaque/StarkAgent) | AI desktop control agent — 275+ commands that move the mouse, type, read the screen, and drive apps over a local TCP/JSON API. | C# / .NET 8, LLM integration, Windows |
+| [dgll](https://github.com/yaleedhaque/dgll) | Distributed Graph Learning Library — training over graphs too large for a single machine. | Distributed systems, Machine Learning, Graph processing |
+| [Edge-project](https://github.com/yaleedhaque/Edge-project) | Experimental front-end work. | HTML, CSS, Web |
+| [opencode-free-fallback](https://github.com/yaleedhaque/opencode-free-fallback) | Keep OpenCode sessions alive for free with auto-fallback chain and WARP IP rotation. | PowerShell, AI APIs, Networking |
 
 ## Tech Stack
 
@@ -49,12 +50,13 @@ I'm **Md. Yaleed Haque**, a C#/.NET and Kotlin developer from Bangladesh — Dha
 
 ## Currently Working On
 
-- GamePadEcosystem — multi-player virtual gamepads for local co-op
-- StarkAgent — expanding the AI desktop control agent
-- My portfolio: [yaleedhaque.github.io](https://yaleedhaque.github.io)
+- **GamePadEcosystem** — multi-player virtual gamepads with sub-5ms latency for local co-op gaming
+- **StarkAgent** — expanding the AI desktop control agent with more advanced automation commands
+- **opencode-free-fallback** — maintaining free OpenCode sessions with intelligent fallback routing
+- **Portfolio** — continuously improving [yaleedhaque.github.io](https://yaleedhaque.github.io)
 
 ## Connect
 
-- Portfolio: [yaleedhaque.github.io](https://yaleedhaque.github.io)
-- GitHub: [github.com/yaleedhaque](https://github.com/yaleedhaque)
-- Email: [yaleedhaque@gmail.com](mailto:yaleedhaque@gmail.com)
+- 🌐 Portfolio: [yaleedhaque.github.io](https://yaleedhaque.github.io)
+- 💻 GitHub: [github.com/yaleedhaque](https://github.com/yaleedhaque)
+- 📧 Email: [yaleedhaque@gmail.com](mailto:yaleedhaque@gmail.com)
