@@ -23,7 +23,7 @@
 
 ## Hi — I'm Yaleed
 
-I build local-first software that just works offline: ultra-low-latency virtual gamepads, AI-driven desktop automation, and distributed graph learning systems. I write production C#/.NET and Kotlin, experiment with low-level networking, and love pushing the limits of what can run without the cloud.
+I build local-first software that just works offline: ultra-low-latency virtual gamepads, AI-driven desktop automation, and offline multiplayer systems. I write production C#/.NET and Kotlin, experiment with low-level networking, and love pushing the limits of what can run without the cloud.
 
 - Location: Dhaka, Bangladesh (roots: Pabna, Dinajpur)
 - Pronouns: he/him
@@ -33,7 +33,6 @@ I build local-first software that just works offline: ultra-low-latency virtual 
 
 - [GamePadEcosystem](https://github.com/yaleedhaque/GamePadEcosystem) — Turn phones into wireless Xbox 360 controllers for Windows. Zero cloud, sub-5ms latency, up to 8 players on one PC. (C#, Android)
 - [StarkAgent](https://github.com/yaleedhaque/StarkAgent) — AI desktop control agent: 275+ commands to move the mouse, type, read the screen, and drive apps over a local TCP/JSON API. (C#)
-- [dgll](https://github.com/yaleedhaque/dgll) — Distributed Graph Learning Library for graphs too large for a single machine. (Distributed ML)
 - [opencode-free-fallback](https://github.com/yaleedhaque/opencode-free-fallback) — Keep OpenCode sessions alive with auto-fallback chains and WARP IP rotation. (PowerShell, Automation)
 
 > See full portfolio on my site: https://yaleedhaque.github.io
@@ -61,7 +60,6 @@ I build local-first software that just works offline: ultra-low-latency virtual 
 
 - GamePadEcosystem — latency improvements, support for new devices
 - StarkAgent — richer automation primitives and better UX
-- dgll — scalability and training pipelines for very large graphs
 
 ## How to reach me
 
@@ -74,3 +72,4 @@ I build local-first software that just works offline: ultra-low-latency virtual 
 Thank you for visiting — if you'd like a demo or collab, open an issue in a repo or email me.
 
 _Last updated: 2026-08-04_
+
