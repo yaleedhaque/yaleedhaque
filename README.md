@@ -1,7 +1,13 @@
 <h1 align="center">
   <a href="https://yaleedhaque.github.io">
-    <img src="https://yaleedhaque.github.io/banner.png" width="100%" alt="Md. Yaleed Haque — C#/.NET and Kotlin developer, Dhaka, Bangladesh. Local-first systems: virtual gamepads and AI desktop agents.">
+    <img src="https://yaleedhaque.github.io/banner.png" width="100%" alt="Md. Yaleed Haque — C#/.NET and Kotlin developer, Dhaka, Bangladesh">
   </a>
+
+  <br>
+  <br>
+  <strong style="font-size:1.2rem">Md. Yaleed Haque</strong>
+  <br>
+  <em>Local-first systems · Offline multiplayer · AI desktop automation · Distributed ML</em>
 </h1>
 
 <p align="center">
@@ -9,54 +15,62 @@
   <img alt="Kotlin" src="https://img.shields.io/badge/Kotlin-Compose-7F52FF?logo=kotlin&logoColor=white">
   <img alt="Android" src="https://img.shields.io/badge/Android-3DDC84?logo=android&logoColor=white">
   <img alt="AI Agents" src="https://img.shields.io/badge/AI-Agents-00E5FF">
-  <img alt="GitHub Pages" src="https://img.shields.io/badge/GitHub%20Pages-portfolio-181717?logo=github&logoColor=white">
-  <img alt="GitHub followers" src="https://img.shields.io/github/followers/yaleedhaque?style=social">
+  <img alt="Portfolio" src="https://img.shields.io/badge/Portfolio-site-181717?logo=github&logoColor=white">
+  <img alt="Email" src="https://img.shields.io/badge/Email-contact-blue?logo=gmail&logoColor=white">
 </p>
 
 ---
 
-## About Me
+## Hi — I'm Yaleed
 
-I'm **Md. Yaleed Haque**, a C#/.NET and Kotlin developer from Bangladesh — Dhaka, with roots in Pabna and Dinajpur. I build **local-first software**: offline multiplayer systems, virtual input devices, and AI desktop agents. All my projects prioritize **zero-cloud dependency**, **low-latency communication**, and **end-user control**.
+I build local-first software that just works offline: ultra-low-latency virtual gamepads, AI-driven desktop automation, and distributed graph learning systems. I write production C#/.NET and Kotlin, experiment with low-level networking, and love pushing the limits of what can run without the cloud.
 
-## Featured Projects
+- Location: Dhaka, Bangladesh (roots: Pabna, Dinajpur)
+- Pronouns: he/him
+- Portfolio: https://yaleedhaque.github.io
 
-| Project | What it does | Stack |
-| --- | --- | --- |
-| [GamePadEcosystem](https://github.com/yaleedhaque/GamePadEcosystem) | Android phones become wireless Xbox 360 controllers for Windows. Zero cloud, sub-5ms latency, up to 8 players on one PC. | C# / .NET 8, Kotlin, Jetpack Compose, UDP, ViGEm |
-| [StarkAgent](https://github.com/yaleedhaque/StarkAgent) | AI desktop control agent — 275+ commands that move the mouse, type, read the screen, and drive apps over a local TCP/JSON API. | C# / .NET 8, LLM integration, Windows |
-| [dgll](https://github.com/yaleedhaque/dgll) | Distributed Graph Learning Library — training over graphs too large for a single machine. | Distributed systems, Machine Learning, Graph processing |
-| [Edge-project](https://github.com/yaleedhaque/Edge-project) | Experimental front-end work. | HTML, CSS, Web |
-| [opencode-free-fallback](https://github.com/yaleedhaque/opencode-free-fallback) | Keep OpenCode sessions alive for free with auto-fallback chain and WARP IP rotation. | PowerShell, AI APIs, Networking |
+## Featured projects
 
-## Tech Stack
+- [GamePadEcosystem](https://github.com/yaleedhaque/GamePadEcosystem) — Turn phones into wireless Xbox 360 controllers for Windows. Zero cloud, sub-5ms latency, up to 8 players on one PC. (C#, Android)
+- [StarkAgent](https://github.com/yaleedhaque/StarkAgent) — AI desktop control agent: 275+ commands to move the mouse, type, read the screen, and drive apps over a local TCP/JSON API. (C#)
+- [dgll](https://github.com/yaleedhaque/dgll) — Distributed Graph Learning Library for graphs too large for a single machine. (Distributed ML)
+- [opencode-free-fallback](https://github.com/yaleedhaque/opencode-free-fallback) — Keep OpenCode sessions alive with auto-fallback chains and WARP IP rotation. (PowerShell, Automation)
+
+> See full portfolio on my site: https://yaleedhaque.github.io
+
+## Tech & tools
 
 <p align="left">
   <img alt="C#" src="https://img.shields.io/badge/C%23-239120?logo=csharp&logoColor=white">
-  <img alt=".NET 8" src="https://img.shields.io/badge/.NET%208-512BD4?logo=dotnet&logoColor=white">
+  <img alt=".NET" src="https://img.shields.io/badge/.NET-512BD4?logo=dotnet&logoColor=white">
   <img alt="Kotlin" src="https://img.shields.io/badge/Kotlin-7F52FF?logo=kotlin&logoColor=white">
   <img alt="Jetpack Compose" src="https://img.shields.io/badge/Compose-4285F4?logo=jetpackcompose&logoColor=white">
   <img alt="Android" src="https://img.shields.io/badge/Android-3DDC84?logo=android&logoColor=white">
   <img alt="Windows" src="https://img.shields.io/badge/Windows-0078D6?logo=windows&logoColor=white">
-  <img alt="HTML" src="https://img.shields.io/badge/HTML5-E34F26?logo=html5&logoColor=white">
+  <img alt="ML" src="https://img.shields.io/badge/Machine%20Learning-FF6B6B">
 </p>
 
-## GitHub Stats
+## GitHub stats
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=yaleedhaque&show_icons=true&theme=radical&hide_border=true&count_private=true" alt="GitHub stats" height="170">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=yaleedhaque&layout=compact&theme=radical&hide_border=true&langs_count=6" alt="Top languages" height="170">
+  <img src="https://github-readme-stats.vercel.app/api?username=yaleedhaque&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" alt="GitHub stats" height="160">
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=yaleedhaque&layout=compact&theme=tokyonight&hide_border=true&langs_count=6" alt="Top languages" height="160">
 </p>
 
-## Currently Working On
+## Current focus
 
-- **GamePadEcosystem** — multi-player virtual gamepads with sub-5ms latency for local co-op gaming
-- **StarkAgent** — expanding the AI desktop control agent with more advanced automation commands
-- **opencode-free-fallback** — maintaining free OpenCode sessions with intelligent fallback routing
-- **Portfolio** — continuously improving [yaleedhaque.github.io](https://yaleedhaque.github.io)
+- GamePadEcosystem — latency improvements, support for new devices
+- StarkAgent — richer automation primitives and better UX
+- dgll — scalability and training pipelines for very large graphs
 
-## Connect
+## How to reach me
 
-- 🌐 Portfolio: [yaleedhaque.github.io](https://yaleedhaque.github.io)
-- 💻 GitHub: [github.com/yaleedhaque](https://github.com/yaleedhaque)
-- 📧 Email: [yaleedhaque@gmail.com](mailto:yaleedhaque@gmail.com)
+- Portfolio: https://yaleedhaque.github.io
+- GitHub: https://github.com/yaleedhaque
+- Email: yaleedhaque AT gmail DOT com (replace AT/DOT) — to avoid scraping
+
+---
+
+Thank you for visiting — if you'd like a demo or collab, open an issue in a repo or email me.
+
+_Last updated: 2026-08-04_
