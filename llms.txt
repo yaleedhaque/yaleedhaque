@@ -1,16 +1,18 @@
 # Md. Yaleed Haque
 
 ## Profile
-C#/.NET and Kotlin developer in Dhaka, Bangladesh (roots in Pabna and Dinajpur). Builds local-first software: virtual input devices, offline multiplayer systems, and AI desktop automation. Work close to the metal — UDP sockets, Win32 APIs, sensor streams — with no cloud dependency.
+C#/.NET and Kotlin developer in Dhaka, Bangladesh (roots in Pabna and Dinajpur). Builds local-first software: virtual input devices, Bluetooth HID remotes, offline multiplayer systems, and AI desktop automation. Work close to the metal — UDP sockets, Win32 APIs, Bluetooth GATT, camera/sensor streams — with no cloud dependency.
 
 ## Projects
+- BluetoothRemoteHid: Turn a phone into a wireless keyboard, touchpad, air-mouse and media remote for any PC over Bluetooth Classic + LE HID. No host software, no cloud. Kotlin/Compose. https://github.com/yaleedhaque/BluetoothRemoteHid
+- Lumen: Lightweight all-feature torch — LED flash, screen light, strobe, SOS, Morse send and Morse decode from the camera. Kotlin/Compose + CameraX. https://github.com/yaleedhaque/Lumen
+- AetherCompass: Modern, feature-packed offline compass. Kotlin/Compose. https://github.com/yaleedhaque/AetherCompass
 - GamePadEcosystem: Android phones as wireless Xbox 360 controllers for Windows PC. Zero cloud, sub-5ms latency, up to 8 players. C#/.NET 8 server + Kotlin/Compose client. https://github.com/yaleedhaque/GamePadEcosystem
 - StarkAgent: AI desktop control agent with 275+ commands over a local TCP/JSON API. C#/.NET 8, Win32, OCR. https://github.com/yaleedhaque/StarkAgent
-- dgll: Distributed Graph Learning Library. https://github.com/yaleedhaque/dgll
-- Edge-project: Experimental front-end work. https://github.com/yaleedhaque/Edge-project
+- opencode-free-fallback: Keep OpenCode sessions alive for free — auto-fallback chains across free AI providers + WARP IP rotation. PowerShell. https://github.com/yaleedhaque/opencode-free-fallback
 
 ## Tech Stack
-C# (.NET 8), Kotlin (Jetpack Compose), Android, Windows Win32, ViGEm, SendInput, UDP/TCP networking, HTML.
+C# (.NET 8), Kotlin (Jetpack Compose), Android (Bluetooth HID/GATT, CameraX, sensors), Windows Win32, ViGEm, SendInput, UDP/TCP networking, PowerShell, GitHub Pages, HTML/CSS/JS.
 
 ## Links
 - Portfolio: https://yaleedhaque.github.io
