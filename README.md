@@ -33,6 +33,7 @@ I build local-first software that just works offline: ultra-low-latency virtual 
 
 - [BluetoothRemoteHid](https://github.com/yaleedhaque/BluetoothRemoteHid) — Turn your phone into a wireless keyboard, touchpad, air-mouse and media remote for any PC over Bluetooth Classic + LE HID. No host software, no cloud. (Kotlin, Android) — **v1.2.6, just shipped**
 - [OmniFetch](https://github.com/yaleedhaque/OmniFetch) — Windows video, audio and playlist downloader. Batch multi-URL queue, concurrent downloads, live progress — yt-dlp + ffmpeg behind a clean desktop GUI. (Python, CustomTkinter) — **v1.0.0, just shipped**
+- [OmniFetch-Android](https://github.com/yaleedhaque/OmniFetch-Android) — Search, stream and download YouTube on-device with a bundled yt-dlp + ffmpeg engine. Play in the background, save videos, no cloud. (Kotlin, Android) — **v1.0.0, just shipped**
 - [Lumen](https://github.com/yaleedhaque/Lumen) — The most lightweight all-feature torch: LED flash, screen light, strobe, SOS, Morse send — and Morse decode straight from the camera. (Kotlin, Android) — **v1.1.0, just shipped**
 - [AetherCompass](https://github.com/yaleedhaque/AetherCompass) — A modern, feature-packed offline compass. Accurate bearings, clean UI, all on-device. (Kotlin, Android) — **v1.0.2, just shipped**
 - [GamePadEcosystem](https://github.com/yaleedhaque/GamePadEcosystem) — Turn phones into wireless Xbox 360 controllers for Windows. Zero cloud, sub-5ms latency, up to 8 players on one PC. (C#, Android)
@@ -79,7 +80,7 @@ I build local-first software that just works offline: ultra-low-latency virtual 
 
 Thank you for visiting — if you'd like a demo or collab, open an issue in a repo or email me.
 
-_Last updated: 2026-08-06_
+_Last updated: 2026-08-14_
 
 ---
 
