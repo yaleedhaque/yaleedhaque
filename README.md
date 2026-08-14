@@ -29,6 +29,11 @@ I build local-first software that just works offline: ultra-low-latency virtual 
 - Pronouns: he/him
 - Portfolio: https://yaleedhaque.github.io
 
+## Live portfolios
+
+- [Temple Portfolio](https://yaleedhaque.github.io/portfolio) — an interactive WebGL night walk through a mountain temple, rendered live in Three.js ([repo](https://github.com/yaleedhaque/portfolio))
+- [Network Portfolio](https://yaleedhaque.github.io/portfolio-hw) — the same cinematic pipeline re-themed into a live local network: core tower, device nodes, cables, rain ([repo](https://github.com/yaleedhaque/portfolio-hw))
+
 ## Featured projects
 
 - [BluetoothRemoteHid](https://github.com/yaleedhaque/BluetoothRemoteHid) — Turn your phone into a wireless keyboard, touchpad, air-mouse and media remote for any PC over Bluetooth Classic + LE HID. No host software, no cloud. (Kotlin, Android) — **v1.2.6, just shipped**
