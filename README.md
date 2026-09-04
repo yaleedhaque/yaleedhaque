@@ -37,19 +37,23 @@ I build local-first software that just works offline: ultra-low-latency virtual 
 ## Featured projects
 
 ### Web Apps
-- [**Digital Family Tapestry**](https://github.com/yaleedhaque/family-tapestry) — A collaborative, graph-based family tree web app with real-time presence, multi-format export (PNG/PDF/JSON/CSV/GEDCOM), timeline, map, and a Harry Potter-inspired parchment aesthetic. Next.js 14, TypeScript, Supabase, React Flow, Leaflet. **[Live →](https://family-tapestry-nine.vercel.app)**
+- [**Digital Family Tapestry**](https://github.com/yaleedhaque/family-tapestry) — A collaborative, graph-based family tree web app with real-time presence, multi-format export (PNG/PDF/JSON/CSV/GEDCOM), timeline, map, generations, and sub-tree collapse. Next.js, TypeScript, Supabase, React Flow, Leaflet. **[Live →](https://family-tapestry-nine.vercel.app)**
+- [**bkash-ecommerce**](https://github.com/yaleedhaque/bkash-ecommerce) — A sellable e-commerce template for Bangladeshi local shops with a manual bKash + WhatsApp order flow: real product photos, stock, categories, and an admin dashboard. Next.js, TypeScript, Supabase, Tailwind. **[Live →](https://bkash-ecommerce.vercel.app)**
 
 ### Android Apps
-- [BluetoothRemoteHid](https://github.com/yaleedhaque/BluetoothRemoteHid) — Turn your phone into a wireless keyboard, touchpad, air-mouse and media remote for any PC over Bluetooth Classic + LE HID. No host software, no cloud. (Kotlin, Android) — **v1.2.6, just shipped**
-- [OmniFetch](https://github.com/yaleedhaque/OmniFetch) — Windows video, audio and playlist downloader. Batch multi-URL queue, concurrent downloads, live progress — yt-dlp + ffmpeg behind a clean desktop GUI. (Python, CustomTkinter) — **v1.0.0, just shipped**
-- [OmniFetch-Android](https://github.com/yaleedhaque/OmniFetch-Android) — Search, stream and download YouTube on-device with a bundled yt-dlp + ffmpeg engine. Play in the background, save videos, no cloud. (Kotlin, Android) — **v1.0.0, just shipped**
-- [Lumen](https://github.com/yaleedhaque/Lumen) — The most lightweight all-feature torch: LED flash, screen light, strobe, SOS, Morse send — and Morse decode straight from the camera. (Kotlin, Android) — **v1.1.0, just shipped**
-- [AetherCompass](https://github.com/yaleedhaque/AetherCompass) — A modern, feature-packed offline compass. Accurate bearings, clean UI, all on-device. (Kotlin, Android) — **v1.0.2, just shipped**
+- [BluetoothRemoteHid](https://github.com/yaleedhaque/BluetoothRemoteHid) — Turn your phone into a wireless keyboard, touchpad, air-mouse and media remote for any PC over Bluetooth Classic + LE HID. No host software, no cloud. (Kotlin, Android)
+- [OmniFetch-Android](https://github.com/yaleedhaque/OmniFetch-Android) — Search, stream and download YouTube on-device with a bundled yt-dlp + ffmpeg engine, and a full gesture player. No cloud. (Kotlin, Android)
+- [Lumen](https://github.com/yaleedhaque/Lumen) — The most lightweight all-feature torch: LED flash, screen light, strobe, SOS, Morse send — and Morse decode straight from the camera. (Kotlin, Android)
+- [AetherCompass](https://github.com/yaleedhaque/AetherCompass) — A modern, feature-packed offline compass. Accurate bearings, clean UI, all on-device. (Kotlin, Android)
 
-### Desktop / Systems
+### Desktop / Systems / AI
 - [GamePadEcosystem](https://github.com/yaleedhaque/GamePadEcosystem) — Turn phones into wireless Xbox 360 controllers for Windows. Zero cloud, sub-5ms latency, up to 8 players on one PC. (C#, Android)
-- [StarkAgent](https://github.com/yaleedhaque/StarkAgent) — AI desktop control agent: 275+ commands to move the mouse, type, read the screen, and drive apps over a local TCP/JSON API. (C#)
+- [StarkAgent](https://github.com/yaleedhaque/StarkAgent) — AI desktop control agent: **295+ commands** to move the mouse, type, read the screen, and drive apps over a local TCP/JSON API. (C#)
+- [OmniFetch](https://github.com/yaleedhaque/OmniFetch) — Windows video, audio and playlist downloader. Batch multi-URL queue, concurrent downloads, live progress — yt-dlp + ffmpeg behind a clean desktop GUI. (Python, CustomTkinter)
+- [Edge-project](https://github.com/yaleedhaque/Edge-project) — Self-hosted, on-device AI speech-to-text. Upload any audio or video, get word-timed transcripts with clickable words, and txt/srt/vtt exports. No cloud, no API keys. (Python, Flask, faster-whisper)
+- [stark-hotspot](https://github.com/yaleedhaque/stark-hotspot) — Run a WiFi hotspot on your laptop while STAYING connected to WiFi — concurrent STA+AP on one radio. Config-driven, tiny, systemd + tray toggle. (Shell, hostapd, dnsmasq)
 - [opencode-free-fallback](https://github.com/yaleedhaque/opencode-free-fallback) — Keep OpenCode sessions alive with auto-fallback chains and WARP IP rotation. (PowerShell, Automation)
+- [opencode-setup-kit](https://github.com/yaleedhaque/opencode-setup-kit) — One-command opencode workstation setup for Windows. (PowerShell, Automation)
 
 > See full portfolio on my site: https://yaleedhaque.github.io
 
@@ -96,7 +100,7 @@ I build local-first software that just works offline: ultra-low-latency virtual 
 
 Thank you for visiting — if you'd like a demo or collab, open an issue in a repo or email me.
 
-_Last updated: 2026-08-27_
+_Last updated: 2026-09-04_
 
 ---
 
