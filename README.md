@@ -1,13 +1,13 @@
 <h1 align="center">
   <a href="https://yaleedhaque.github.io">
-    <img src="https://yaleedhaque.github.io/banner.png" width="100%" alt="Md. Yaleed Haque — C#/.NET and Kotlin developer, Dhaka, Bangladesh">
+    <img src="https://yaleedhaque.github.io/banner.png" width="100%" alt="Md. Yaleed Haque — local-first / offline-first systems developer, C#/.NET and Kotlin, Dhaka, Bangladesh">
   </a>
 
   <br>
   <br>
   <strong style="font-size:1.2rem">Md. Yaleed Haque</strong>
   <br>
-  <em>Local-first systems · Offline multiplayer · Android apps · AI automation · Web apps</em>
+  <em>I turn phones into controllers, PCs into agents — offline, on Android and the desktop.</em>
 </h1>
 
 <p align="center">
@@ -100,7 +100,7 @@ I build local-first software that just works offline: ultra-low-latency virtual 
 
 Thank you for visiting — if you'd like a demo or collab, open an issue in a repo or email me.
 
-_Last updated: 2026-09-04_
+<!--DATE-->_Last updated: 2026-09-04_<!--/DATE-->
 
 ---
 
