@@ -39,6 +39,7 @@ I build local-first software that just works offline: ultra-low-latency virtual 
 ### Web Apps
 - [**Digital Family Tapestry**](https://github.com/yaleedhaque/family-tapestry) — A collaborative, graph-based family tree web app with real-time presence, multi-format export (PNG/PDF/JSON/CSV/GEDCOM), timeline, map, generations, and sub-tree collapse. Next.js, TypeScript, Supabase, React Flow, Leaflet. **[Live →](https://family-tapestry-nine.vercel.app)**
 - [**bkash-ecommerce**](https://github.com/yaleedhaque/bkash-ecommerce) — A sellable e-commerce template for Bangladeshi local shops with a manual bKash + WhatsApp order flow: real product photos, stock, categories, and an admin dashboard. Next.js, TypeScript, Supabase, Tailwind. **[Live →](https://bkash-ecommerce.vercel.app)**
+- [**yale-doc-yaleed**](https://github.com/yaleedhaque/yale-doc-yaleed) — Self-encrypting documents in a single HTML file (.ydoc.html). A Word-like editor + AES-256-GCM encryption with PBKDF2-SHA256; opens offline in any browser, no install or cloud. (HTML/JS, WebCrypto)
 
 ### Android Apps
 - [BluetoothRemoteHid](https://github.com/yaleedhaque/BluetoothRemoteHid) — Turn your phone into a wireless keyboard, touchpad, air-mouse and media remote for any PC over Bluetooth Classic + LE HID. No host software, no cloud. (Kotlin, Android)
