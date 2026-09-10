@@ -79,8 +79,8 @@ I build local-first software that just works offline: ultra-low-latency virtual 
 ## GitHub stats
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=yaleedhaque&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" alt="GitHub stats" height="160">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=yaleedhaque&layout=compact&theme=tokyonight&hide_border=true&langs_count=6" alt="Top languages" height="160">
+<img src="https://grs-lac.vercel.app/api?username=yaleedhaque&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" alt="GitHub stats" height="160">
+  <img src="https://grs-lac.vercel.app/api/top-langs/?username=yaleedhaque&layout=compact&theme=tokyonight&hide_border=true&langs_count=6" alt="Top languages" height="160">
 </p>
 
 ## Contribution activity
