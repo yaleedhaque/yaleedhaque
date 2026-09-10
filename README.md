@@ -83,6 +83,15 @@ I build local-first software that just works offline: ultra-low-latency virtual 
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=yaleedhaque&layout=compact&theme=tokyonight&hide_border=true&langs_count=6" alt="Top languages" height="160">
 </p>
 
+## Contribution activity
+
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/yaleedhaque/yaleedhaque/output/github-snake-dark.svg?raw=true" />
+    <img alt="GitHub contribution snake" src="https://raw.githubusercontent.com/yaleedhaque/yaleedhaque/output/github-snake.svg?raw=true" />
+  </picture>
+</p>
+
 ## Current focus
 
 - Digital Family Tapestry — public launch, real-time collaboration, more export formats
