@@ -106,7 +106,7 @@ I build local-first software that just works offline: ultra-low-latency virtual 
 
 Thank you for visiting — if you'd like a demo or collab, open an issue in a repo or email me.
 
-<!--DATE-->_Last updated: 2026-09-10_<!--/DATE-->
+<!--DATE-->_Last updated: 2026-09-11_<!--/DATE-->
 
 ---
 
