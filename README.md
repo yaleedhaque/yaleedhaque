@@ -37,24 +37,20 @@ I build local-first software that just works offline: ultra-low-latency virtual 
 ## Featured projects
 
 ### Web Apps
-- [**Digital Family Tapestry**](https://github.com/yaleedhaque/family-tapestry) — A collaborative, graph-based family tree web app with real-time presence, multi-format export (PNG/PDF/JSON/CSV/GEDCOM), timeline, map, generations, and sub-tree collapse. Next.js, TypeScript, Supabase, React Flow, Leaflet. **[Live →](https://family-tapestry-nine.vercel.app)**
-- [**bkash-ecommerce**](https://github.com/yaleedhaque/bkash-ecommerce) — A sellable e-commerce template for Bangladeshi local shops with a manual bKash + WhatsApp order flow: real product photos, stock, categories, and an admin dashboard. Next.js, TypeScript, Supabase, Tailwind. **[Live →](https://bkash-ecommerce.vercel.app)**
-- [**yale-doc-yaleed**](https://github.com/yaleedhaque/yale-doc-yaleed) — Self-encrypting documents in a single HTML file (.ydoc.html). A Word-like editor + AES-256-GCM encryption with PBKDF2-SHA256; opens offline in any browser, no install or cloud. (HTML/JS, WebCrypto)
+- [**Digital Family Tapestry**](https://family-tapestry-nine.vercel.app) — A collaborative, graph-based family tree web app with real-time presence, timeline, map, generations, and sub-tree collapse. Next.js, TypeScript, Supabase, React Flow, Leaflet. **[Live →](https://family-tapestry-nine.vercel.app)**
+- [**bKash E-Commerce Template**](https://bkash-ecommerce.vercel.app) — A sellable e-commerce template for Bangladeshi local shops with a manual bKash + WhatsApp order flow: real product photos, stock, categories, and an admin dashboard. Next.js, TypeScript, Supabase, Tailwind. **[Live →](https://bkash-ecommerce.vercel.app)**
+- [**YaleDoc**](https://yaleedhaque.github.io/downloads/apps/yaledoc.html) — Self-encrypting documents in a single HTML file (.ydoc.html). A Word-like editor + AES-256-GCM encryption with PBKDF2-SHA256; opens offline in any browser, no install or cloud. **[Download →](https://yaleedhaque.github.io/downloads/apps/yaledoc.html)**
 
 ### Android Apps
-- [BluetoothRemoteHid](https://github.com/yaleedhaque/BluetoothRemoteHid) — Turn your phone into a wireless keyboard, touchpad, air-mouse and media remote for any PC over Bluetooth Classic + LE HID. No host software, no cloud. (Kotlin, Android)
-- [OmniFetch-Android](https://github.com/yaleedhaque/OmniFetch-Android) — Search, stream and download YouTube on-device with a bundled yt-dlp + ffmpeg engine, and a full gesture player. No cloud. (Kotlin, Android)
-- [Lumen](https://github.com/yaleedhaque/Lumen) — The most lightweight all-feature torch: LED flash, screen light, strobe, SOS, Morse send — and Morse decode straight from the camera. (Kotlin, Android)
-- [AetherCompass](https://github.com/yaleedhaque/AetherCompass) — A modern, feature-packed offline compass. Accurate bearings, clean UI, all on-device. (Kotlin, Android)
+- [**GamePad**](https://yaleedhaque.github.io/downloads/apps/gamepad.html) — Turn your phone into a wireless game controller for your PC. Offline multiplayer, no cloud, sub-5 ms latency. **[Download →](https://yaleedhaque.github.io/downloads/apps/gamepad.html)**
+- [**Bluetooth Remote HID**](https://yaleedhaque.github.io/downloads/apps/bluetoothremotehid.html) — Turn your phone into a wireless keyboard, touchpad, air-mouse and media remote for any PC over Bluetooth Classic + LE HID. No host software, no cloud. **[Download →](https://yaleedhaque.github.io/downloads/apps/bluetoothremotehid.html)**
+- [**OmniFetch**](https://yaleedhaque.github.io/downloads/apps/omnifetch.html) — Search, stream and download YouTube on-device with a bundled yt-dlp + ffmpeg engine, and a full gesture player. No cloud. **[Download →](https://yaleedhaque.github.io/downloads/apps/omnifetch.html)**
+- [**Lumen**](https://yaleedhaque.github.io/downloads/apps/lumen.html) — The most lightweight all-feature torch: LED flash, screen light, strobe, SOS, Morse send — and Morse decode straight from the camera. **[Download →](https://yaleedhaque.github.io/downloads/apps/lumen.html)**
+- [**Aether Compass**](https://yaleedhaque.github.io/downloads/apps/aethercompass.html) — A modern, feature-packed offline compass. Accurate bearings, clean UI, all on-device. **[Download →](https://yaleedhaque.github.io/downloads/apps/aethercompass.html)**
 
 ### Desktop / Systems / AI
-- [GamePadEcosystem](https://github.com/yaleedhaque/GamePadEcosystem) — Turn phones into wireless Xbox 360 controllers for Windows. Zero cloud, sub-5ms latency, up to 8 players on one PC. (C#, Android)
-- [StarkAgent](https://github.com/yaleedhaque/StarkAgent) — AI desktop control agent: **295+ commands** to move the mouse, type, read the screen, and drive apps over a local TCP/JSON API. (C#)
-- [OmniFetch](https://github.com/yaleedhaque/OmniFetch) — Windows video, audio and playlist downloader. Batch multi-URL queue, concurrent downloads, live progress — yt-dlp + ffmpeg behind a clean desktop GUI. (Python, CustomTkinter)
-- [Edge-project](https://github.com/yaleedhaque/Edge-project) — Self-hosted, on-device AI speech-to-text. Upload any audio or video, get word-timed transcripts with clickable words, and txt/srt/vtt exports. No cloud, no API keys. (Python, Flask, faster-whisper)
-- [stark-hotspot](https://github.com/yaleedhaque/stark-hotspot) — Run a WiFi hotspot on your laptop while STAYING connected to WiFi — concurrent STA+AP on one radio. Config-driven, tiny, systemd + tray toggle. (Shell, hostapd, dnsmasq)
-- [opencode-free-fallback](https://github.com/yaleedhaque/opencode-free-fallback) — Keep OpenCode sessions alive with auto-fallback chains and WARP IP rotation. (PowerShell, Automation)
-- [opencode-setup-kit](https://github.com/yaleedhaque/opencode-setup-kit) — One-command opencode workstation setup for Windows. (PowerShell, Automation)
+- [**StarkAgent**](https://yaleedhaque.github.io/downloads/apps/starkagent.html) — AI desktop control agent: **295+ commands** to move the mouse, type, read the screen, and drive apps over a local TCP/JSON API. (C#) **[Download →](https://yaleedhaque.github.io/downloads/apps/starkagent.html)**
+- [**NetSpeedBar**](https://yaleedhaque.github.io/downloads/apps/netspeedbar.html) — Taskbar network overlay: live upload/download speed at a glance, always on top, single named-mutex instance. (C#) **[Download →](https://yaleedhaque.github.io/downloads/apps/netspeedbar.html)**
 
 > See full portfolio on my site: https://yaleedhaque.github.io
 
@@ -115,4 +111,3 @@ Thank you for visiting — if you'd like a demo or collab, open an issue in a re
 ---
 
 **Md. Yaleed Haque** — [GitHub](https://github.com/yaleedhaque) · [Portfolio](https://yaleedhaque.github.io) · yaleedhaque@users.noreply.github.com
-
