@@ -1,19 +1,72 @@
 # Md. Yaleed Haque
 
 ## Profile
-C#/.NET and Kotlin developer in Dhaka, Bangladesh (roots in Pabna and Dinajpur). Builds local-first software: virtual input devices, Bluetooth HID remotes, offline multiplayer systems, and AI desktop automation. Work close to the metal — UDP sockets, Win32 APIs, Bluetooth GATT, camera/sensor streams — with no cloud dependency.
+C#/.NET and Kotlin/Android engineer in Dhaka, Bangladesh — open to remote.
+Ships complete, offline-first products end to end: 30 repositories, MIT/Apache-2.0
+licensed, most with CI and automated test suites. Works close to the metal — Win32
+APIs, Bluetooth GATT/HID, UDP/TCP, sensors — with no cloud dependency.
+Seeking a full-time role in C#/.NET desktop, Android/Kotlin, or AI-agent tooling.
 
-## Projects
-- BluetoothRemoteHid: Turn a phone into a wireless keyboard, touchpad, air-mouse and media remote for any PC over Bluetooth Classic + LE HID. No host software, no cloud. Kotlin/Compose. https://github.com/yaleedhaque/BluetoothRemoteHid
-- Lumen: Lightweight all-feature torch — LED flash, screen light, strobe, SOS, Morse send and Morse decode from the camera. Kotlin/Compose + CameraX. https://github.com/yaleedhaque/Lumen
-- AetherCompass: Modern, feature-packed offline compass. Kotlin/Compose. https://github.com/yaleedhaque/AetherCompass
-- GamePadEcosystem: Android phones as wireless Xbox 360 controllers for Windows PC. Zero cloud, sub-5ms latency, up to 8 players. C#/.NET 8 server + Kotlin/Compose client. https://github.com/yaleedhaque/GamePadEcosystem
-- StarkAgent: AI desktop control agent with 275+ commands over a local TCP/JSON API. C#/.NET 8, Win32, OCR. https://github.com/yaleedhaque/StarkAgent
-- opencode-free-fallback: Keep OpenCode sessions alive for free — auto-fallback chains across free AI providers + WARP IP rotation. PowerShell. https://github.com/yaleedhaque/opencode-free-fallback
+## Verified facts
+- 295 registered desktop automation commands in StarkAgent Core/CommandCatalog.cs
+- ~15,500 lines of production C# (StarkAgent)
+- ~27,800 lines of TypeScript (Family Tapestry), 239 Vitest tests across 16 files
+- 347 Python tests across 22 files (AI Browser Toolkit)
+- 7 Supabase migrations with row-level security enabled (Family Tapestry)
+
+## Public repositories (open for review)
+- yale-doc-yaleed: Self-encrypting single-file HTML document editor. AES-256-GCM,
+  PBKDF2-SHA256, encrypted version history, attachments, offline, zero dependencies.
+  Verified on Chromium, Firefox and WebKit. https://github.com/yaleedhaque/yale-doc-yaleed
+- YaleVPN-PC: Desktop WireGuard + Cloudflare WARP client for Linux and Windows —
+  on-device keys, egress IP rotation, kill switch, DNS pinning, GUI + CLI.
+  https://github.com/yaleedhaque/YaleVPN-PC
+- yalevpn: WireGuard VPN + Shizuku integration research lab for Android.
+  https://github.com/yaleedhaque/yalevpn
+- proctor-free: Browser-based exam proctoring with all AI running client-side.
+  No servers, no tracking. https://github.com/yaleedhaque/proctor-free
+
+## Private repositories (source available on request)
+These are built and shipping but kept private by default. Code and architecture
+walkthrough are available on request.
+- StarkAgent: Windows desktop control agent, 295+ commands (OCR, UIA, Vision, MCP,
+  CDP browser control, DirectX capture, WhatsApp driver). C#/.NET 8.
+- yale-agent: Wayland-native Linux desktop agent, 68 tools in 11 categories via
+  MCP server, CLI and web dashboard. Python.
+- Ai-Browser-Toolkit: Drive real Chrome/Edge over a JSON API — one persistent
+  profile, full DOM control. Python, Apache-2.0.
+- precise-hands: MCP server for exact-coordinate automation (AT-SPI, XDG portal,
+  uiautomator bounds to input tap). Python.
+- BluetoothRemoteHid: Phone as wireless keyboard/touchpad/air-mouse over Bluetooth
+  Classic + LE HID, no host software. Kotlin.
+- GamePadEcosystem: Android phones as wireless Xbox 360 controllers, sub-5 ms
+  latency. C#/.NET 8 host + Kotlin/Compose client.
+- Lumen: Offline torch with Morse send and camera-based Morse decode. Kotlin/Compose.
+- AetherCompass: Offline compass with accurate bearings. Kotlin/Compose.
+- OmniFetch-Android: On-device video search/stream/download with bundled
+  yt-dlp + ffmpeg and a gesture player. Kotlin/Compose.
+- family-tapestry: Collaborative graph-based family tree with real-time presence,
+  timeline, map and multi-format export. Next.js, TypeScript, Supabase (RLS),
+  React Flow, Leaflet. Live: https://family-tapestry-nine.vercel.app
+- bkash-ecommerce: bKash + WhatsApp storefront template for local shops with
+  admin dashboard. Next.js, TypeScript, Supabase.
+  Live: https://bkash-ecommerce.vercel.app
+- Edge-project: Self-hosted on-device speech-to-text (faster-whisper + ffmpeg),
+  word-timed transcripts, no cloud and no API keys. Python.
+- stark-hotspot: Concurrent WiFi STA+AP on one radio (hostapd + dnsmasq + NAT).
+- haque-squad: Authoritative-server multiplayer arena shooter (Godot 4) with
+  phone browser touch controllers over WebSocket.
+- opencode-dotfiles, opencode-setup-kit, opencode-free-fallback, yaleed-install:
+  AI agent infrastructure — version-controlled agent brain, one-command
+  workstation provisioning, free-tier model fallback, environment restore.
 
 ## Tech Stack
-C# (.NET 8), Kotlin (Jetpack Compose), Android (Bluetooth HID/GATT, CameraX, sensors), Windows Win32, ViGEm, SendInput, UDP/TCP networking, PowerShell, GitHub Pages, HTML/CSS/JS.
+C# (.NET 8), Kotlin (Jetpack Compose), Android (Bluetooth HID/GATT, CameraX,
+sensors), Windows Win32, ViGEm, SendInput, TypeScript, Next.js, Supabase (RLS),
+React Flow, Leaflet, Python (FastAPI, MCP, Playwright), Godot 4 / GDScript,
+Shell (systemd, hostapd), PowerShell.
 
 ## Links
 - Portfolio: https://yaleedhaque.github.io
 - GitHub: https://github.com/yaleedhaque
+- Live apps: https://family-tapestry-nine.vercel.app · https://bkash-ecommerce.vercel.app
