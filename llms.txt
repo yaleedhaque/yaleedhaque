@@ -25,16 +25,18 @@ Seeking a full-time role in C#/.NET desktop, Android/Kotlin, or AI-agent tooling
   https://github.com/yaleedhaque/yalevpn
 - proctor-free: Browser-based exam proctoring with all AI running client-side.
   No servers, no tracking. https://github.com/yaleedhaque/proctor-free
+- StarkAgent: Fully autonomous Windows desktop control agent, 295+ commands
+  (OCR, UIA, Vision, MCP, CDP browser control, DirectX capture, WhatsApp driver).
+  C#/.NET 8, MIT, ~15.5k LOC. https://github.com/yaleedhaque/StarkAgent
+- Ai-Browser-Toolkit: Drive real Chrome/Edge over a JSON API — one persistent
+  profile, full DOM control, 347 tests. Python, Apache-2.0.
+  https://github.com/yaleedhaque/Ai-Browser-Toolkit
 
 ## Private repositories (source available on request)
 These are built and shipping but kept private by default. Code and architecture
 walkthrough are available on request.
-- StarkAgent: Windows desktop control agent, 295+ commands (OCR, UIA, Vision, MCP,
-  CDP browser control, DirectX capture, WhatsApp driver). C#/.NET 8.
 - yale-agent: Wayland-native Linux desktop agent, 68 tools in 11 categories via
   MCP server, CLI and web dashboard. Python.
-- Ai-Browser-Toolkit: Drive real Chrome/Edge over a JSON API — one persistent
-  profile, full DOM control. Python, Apache-2.0.
 - precise-hands: MCP server for exact-coordinate automation (AT-SPI, XDG portal,
   uiautomator bounds to input tap). Python.
 - BluetoothRemoteHid: Phone as wireless keyboard/touchpad/air-mouse over Bluetooth
@@ -47,7 +49,8 @@ walkthrough are available on request.
   yt-dlp + ffmpeg and a gesture player. Kotlin/Compose.
 - family-tapestry: Collaborative graph-based family tree with real-time presence,
   timeline, map and multi-format export. Next.js, TypeScript, Supabase (RLS),
-  React Flow, Leaflet. Live: https://family-tapestry-nine.vercel.app
+  React Flow, Leaflet. 239 tests, 27.8k LOC. Source private by design; the live
+  app is open to all users: https://family-tapestry-nine.vercel.app
 - bkash-ecommerce: bKash + WhatsApp storefront template for local shops with
   admin dashboard. Next.js, TypeScript, Supabase.
   Live: https://bkash-ecommerce.vercel.app

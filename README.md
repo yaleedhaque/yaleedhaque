@@ -55,9 +55,9 @@ I write tests because the work is concurrency- and latency-sensitive, not becaus
 > **Note on access:** source for several projects below is private by default. Each is marked `🔒` — the code is available on request, and I can walk through the architecture live. Repositories without the marker are public and open to review right now.
 
 ### Desktop automation & AI agents
-- **StarkAgent** 🔒 — Fully autonomous Windows desktop control agent. **295+ commands** across mouse, keyboard, OCR, UIA tree-walking, file operations, web fetch, and email, exposed over a local TCP/JSON API. Includes a WhatsApp driver and MCP server. *(C# · 15.5k LOC · MIT)*
+- **[StarkAgent](https://github.com/yaleedhaque/StarkAgent)** — Fully autonomous Windows desktop control agent. **295+ commands** across mouse, keyboard, OCR, UIA tree-walking, file operations, web fetch, and email, exposed over a local TCP/JSON API. Includes a WhatsApp driver and MCP server. *(C# · 15.5k LOC · MIT)*
 - **yale-agent** 🔒 — Wayland-native Linux desktop agent: **68 tools** in 11 categories (vision click-by-text, browser, desktop, media, audio, filesystem, system) via MCP server, CLI, and web dashboard. Solved Wayland input injection and GNOME screenshot access without a display server hack. *(Python)*
-- **AI Browser Toolkit** 🔒 — Let an AI agent drive real Chrome or Edge over a JSON API. One server, one persistent profile, full DOM control. **347 tests.** *(Python · Apache-2.0)*
+- **[AI Browser Toolkit](https://github.com/yaleedhaque/Ai-Browser-Toolkit)** — Let an AI agent drive real Chrome or Edge over a JSON API. One server, one persistent profile, full DOM control. **347 tests.** *(Python · Apache-2.0)*
 - **precise-hands** 🔒 — MCP server for exact-coordinate automation: AT-SPI and XDG portal for Linux desktop, uiautomator bounds → `input tap` for Android. Built because screenshot-guessing clicks caused misclicks. *(Python)*
 - **[NetSpeedBar](https://yaleedhaque.github.io)** — Always-on-top taskbar network overlay with single named-mutex instance handling. *(C#)*
 
@@ -69,7 +69,7 @@ I write tests because the work is concurrency- and latency-sensitive, not becaus
 - **OmniFetch-Android** 🔒 — Search, stream and download video on-device with a bundled yt-dlp + ffmpeg engine and a gesture player. *(Kotlin + Compose)*
 
 ### Web & product
-- **Family Tapestry** 🔒 — Collaborative graph-based family tree: real-time presence, timeline, map, generations, sub-tree collapse, multi-format export. Next.js + TypeScript + Supabase (RLS) + React Flow + Leaflet. **239 tests, 27.8k LOC, 7 migrations.** **[Live →](https://family-tapestry-nine.vercel.app)**
+- **Family Tapestry** 🔒 — Collaborative graph-based family tree: real-time presence, timeline, map, generations, sub-tree collapse, multi-format export. Next.js + TypeScript + Supabase (RLS) + React Flow + Leaflet. **239 tests, 27.8k LOC, 7 migrations.** **[Live →](https://family-tapestry-nine.vercel.app)** *(app is open to everyone; source stays private)*
 - **bKash + WhatsApp Storefront** 🔒 — Sellable e-commerce template for Bangladeshi local shops: manual bKash payment, WhatsApp order flow, stock, categories, admin dashboard. **[Live →](https://bkash-ecommerce.vercel.app)**
 - **[YaleDoc](https://github.com/yaleedhaque/yale-doc-yaleed)** — Self-encrypting documents in **one HTML file**. AES-256-GCM, PBKDF2-SHA256, encrypted version history, attachments, English/বাংলা UI, zero dependencies, opens offline anywhere. **Verified on Chromium, Firefox and WebKit.**
 - **[ProctorFree](https://github.com/yaleedhaque/proctor-free)** — Browser-based exam proctoring where all AI runs client-side. No servers, no tracking.
