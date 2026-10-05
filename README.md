@@ -1,8 +1,10 @@
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://yaleedhaque.github.io/banner.svg">
+  <img alt="Md. Yaleed Haque — C#/.NET and Kotlin engineer, Dhaka, Bangladesh. 295 desktop commands, 27,800 lines of TypeScript, 486 automated tests."
+       src="https://yaleedhaque.github.io/banner-light.svg" width="960">
+</picture>
+
 <h1 align="center">
-  <a href="https://yaleedhaque.github.io">
-    <img src="https://yaleedhaque.github.io/banner.png" width="100%" alt="Md. Yaleed Haque — C#/.NET and Kotlin/Android engineer, Dhaka, Bangladesh">
-  </a>
-  <br><br>
   <strong style="font-size:1.25rem">Md. Yaleed Haque</strong>
   <br>
   <em>Systems engineer building offline-first software — C#/.NET, Kotlin/Android, TypeScript.</em>
@@ -52,38 +54,38 @@ I write tests because the work is concurrency- and latency-sensitive, not becaus
 
 ## Selected work
 
-> **Note on access:** source for several projects below is private by default. Each is marked `🔒` — the code is available on request, and I can walk through the architecture live. Repositories without the marker are public and open to review right now.
+> **Note on access:** source for several projects below is private by default. Each is marked `private` — the code is available on request, and I can walk through the architecture live. Repositories without the marker are public and open to review right now.
 
 ### Desktop automation & AI agents
 - **[StarkAgent](https://github.com/yaleedhaque/StarkAgent)** — Fully autonomous Windows desktop control agent. **295+ commands** across mouse, keyboard, OCR, UIA tree-walking, file operations, web fetch, and email, exposed over a local TCP/JSON API. Includes a WhatsApp driver and MCP server. *(C# · 15.5k LOC · MIT)*
-- **yale-agent** 🔒 — Wayland-native Linux desktop agent: **68 tools** in 11 categories (vision click-by-text, browser, desktop, media, audio, filesystem, system) via MCP server, CLI, and web dashboard. Solved Wayland input injection and GNOME screenshot access without a display server hack. *(Python)*
+- **yale-agent** `private` — Wayland-native Linux desktop agent: **68 tools** in 11 categories (vision click-by-text, browser, desktop, media, audio, filesystem, system) via MCP server, CLI, and web dashboard. Solved Wayland input injection and GNOME screenshot access without a display server hack. *(Python)*
 - **[AI Browser Toolkit](https://github.com/yaleedhaque/Ai-Browser-Toolkit)** — Let an AI agent drive real Chrome or Edge over a JSON API. One server, one persistent profile, full DOM control. **347 tests.** *(Python · Apache-2.0)*
-- **precise-hands** 🔒 — MCP server for exact-coordinate automation: AT-SPI and XDG portal for Linux desktop, uiautomator bounds → `input tap` for Android. Built because screenshot-guessing clicks caused misclicks. *(Python)*
+- **precise-hands** `private` — MCP server for exact-coordinate automation: AT-SPI and XDG portal for Linux desktop, uiautomator bounds → `input tap` for Android. Built because screenshot-guessing clicks caused misclicks. *(Python)*
 - **[NetSpeedBar](https://yaleedhaque.github.io)** — Always-on-top taskbar network overlay with single named-mutex instance handling. *(C#)*
 
 ### Android / Kotlin
-- **BluetoothRemoteHid** 🔒 — Turn a phone into a wireless keyboard, touchpad, air-mouse and media remote for any PC over **Bluetooth Classic + LE HID**. No host software, no cloud. Implemented the HID report-descriptor and pairing layers directly. *(Kotlin)*
-- **GamePadEcosystem** 🔒 — Android phones as wireless Xbox 360 controllers. **Sub-5 ms latency**, offline multiplayer, zero cloud. *(C# host + Kotlin)*
-- **Lumen** 🔒 — Offline torch: LED, screen light, strobe, SOS, Morse send, and **Morse decode from the camera** via ML Kit. *(Kotlin + Compose)*
-- **AetherCompass** 🔒 — Feature-packed offline compass with accurate bearings. *(Kotlin + Compose)*
-- **OmniFetch-Android** 🔒 — Search, stream and download video on-device with a bundled yt-dlp + ffmpeg engine and a gesture player. *(Kotlin + Compose)*
+- **BluetoothRemoteHid** `private` — Turn a phone into a wireless keyboard, touchpad, air-mouse and media remote for any PC over **Bluetooth Classic + LE HID**. No host software, no cloud. Implemented the HID report-descriptor and pairing layers directly. *(Kotlin)*
+- **GamePadEcosystem** `private` — Android phones as wireless Xbox 360 controllers. **Sub-5 ms latency**, offline multiplayer, zero cloud. *(C# host + Kotlin)*
+- **Lumen** `private` — Offline torch: LED, screen light, strobe, SOS, Morse send, and **Morse decode from the camera** via ML Kit. *(Kotlin + Compose)*
+- **AetherCompass** `private` — Feature-packed offline compass with accurate bearings. *(Kotlin + Compose)*
+- **OmniFetch-Android** `private` — Search, stream and download video on-device with a bundled yt-dlp + ffmpeg engine and a gesture player. *(Kotlin + Compose)*
 
 ### Web & product
-- **Family Tapestry** 🔒 — Collaborative graph-based family tree: real-time presence, timeline, map, generations, sub-tree collapse, multi-format export. Next.js + TypeScript + Supabase (RLS) + React Flow + Leaflet. **239 tests, 27.8k LOC, 7 migrations.** **[Live →](https://family-tapestry-nine.vercel.app)** *(app is open to everyone; source stays private)*
-- **bKash + WhatsApp Storefront** 🔒 — Sellable e-commerce template for Bangladeshi local shops: manual bKash payment, WhatsApp order flow, stock, categories, admin dashboard. **[Live →](https://bkash-ecommerce.vercel.app)**
+- **Family Tapestry** `private` — Collaborative graph-based family tree: real-time presence, timeline, map, generations, sub-tree collapse, multi-format export. Next.js + TypeScript + Supabase (RLS) + React Flow + Leaflet. **239 tests, 27.8k LOC, 7 migrations.** **[Live →](https://family-tapestry-nine.vercel.app)** *(app is open to everyone; source stays private)*
+- **bKash + WhatsApp Storefront** `private` — Sellable e-commerce template for Bangladeshi local shops: manual bKash payment, WhatsApp order flow, stock, categories, admin dashboard. **[Live →](https://bkash-ecommerce.vercel.app)**
 - **[YaleDoc](https://github.com/yaleedhaque/yale-doc-yaleed)** — Self-encrypting documents in **one HTML file**. AES-256-GCM, PBKDF2-SHA256, encrypted version history, attachments, English/বাংলা UI, zero dependencies, opens offline anywhere. **Verified on Chromium, Firefox and WebKit.**
 - **[ProctorFree](https://github.com/yaleedhaque/proctor-free)** — Browser-based exam proctoring where all AI runs client-side. No servers, no tracking.
 
 ### Systems & networking
 - **[YaleVPN-PC](https://github.com/yaleedhaque/YaleVPN-PC)** — Desktop WireGuard + Cloudflare WARP client for Linux and Windows: on-device keys, egress IP rotation, kill switch, DNS pinning, GUI + CLI. *(Python)*
 - **[yalevpn](https://github.com/yaleedhaque/yalevpn)** — WireGuard VPN + Shizuku integration research lab for Android. *(Kotlin)*
-- **stark-hotspot** 🔒 — Run a WiFi hotspot while staying connected to WiFi: concurrent STA+AP on one radio (hostapd + dnsmasq + NAT). *(Shell)*
-- **Edge** 🔒 — Self-hosted on-device speech-to-text. Word-timed transcripts with clickable words, txt/srt/vtt export, faster-whisper + ffmpeg. No cloud, no API keys. *(Python)*
-- **haque-squad** 🔒 — Authoritative-server multiplayer arena shooter (Godot 4) with phone browser touch controllers over WebSocket. *(GDScript)*
+- **stark-hotspot** `private` — Run a WiFi hotspot while staying connected to WiFi: concurrent STA+AP on one radio (hostapd + dnsmasq + NAT). *(Shell)*
+- **Edge** `private` — Self-hosted on-device speech-to-text. Word-timed transcripts with clickable words, txt/srt/vtt export, faster-whisper + ffmpeg. No cloud, no API keys. *(Python)*
+- **haque-squad** `private` — Authoritative-server multiplayer arena shooter (Godot 4) with phone browser touch controllers over WebSocket. *(GDScript)*
 
 ### AI tooling & agent infrastructure
-- **opencode-dotfiles** 🔒 — Version-controlled AI agent brain: config, scripts, skills, memory, research, systemd units. Secrets handled through an encrypted vault with one passphrase held outside the repo.
-- **opencode-setup-kit** 🔒 · **opencode-free-fallback** 🔒 · **yaleed-install** 🔒 — One-command AI workstation provisioning, free-tier model fallback chains, and full environment restore.
+- **opencode-dotfiles** `private` — Version-controlled AI agent brain: config, scripts, skills, memory, research, systemd units. Secrets handled through an encrypted vault with one passphrase held outside the repo.
+- **opencode-setup-kit** `private` · **opencode-free-fallback** `private` · **yaleed-install** `private` — One-command AI workstation provisioning, free-tier model fallback chains, and full environment restore.
 
 ---
 
@@ -101,6 +103,13 @@ I write tests because the work is concurrency- and latency-sensitive, not becaus
 Building on Family Tapestry (launch + export formats), sharpening the Bluetooth HID stack, improving Lumen's Morse accuracy, and lowering GamePad latency. Looking for a full-time role in C#/.NET, Android/Kotlin, or agent tooling.
 
 ---
+
+## Contribution activity
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/yaleedhaque/yaleedhaque/output/github-snake-dark.svg?raw=true" />
+  <img alt="Contribution graph rendered as an animated snake" src="https://raw.githubusercontent.com/yaleedhaque/yaleedhaque/output/github-snake.svg?raw=true" />
+</picture>
 
 ## <a id="contact"></a>Contact
 
