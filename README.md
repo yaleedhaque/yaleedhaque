@@ -71,8 +71,10 @@ I write tests because the work is concurrency- and latency-sensitive, not becaus
 - **OmniFetch-Android** `private` — Search, stream and download video on-device with a bundled yt-dlp + ffmpeg engine and a gesture player. *(Kotlin + Compose)*
 
 ### Web & product
-- **Family Tapestry** `private` — Collaborative graph-based family tree: real-time presence, timeline, map, generations, sub-tree collapse, multi-format export. Next.js + TypeScript + Supabase (RLS) + React Flow + Leaflet. **239 tests, 27.8k LOC, 7 migrations.** **[Live →](https://family-tapestry-nine.vercel.app)** *(app is open to everyone; source stays private)*
-- **bKash + WhatsApp Storefront** `private` — Sellable e-commerce template for Bangladeshi local shops: manual bKash payment, WhatsApp order flow, stock, categories, admin dashboard. **[Live →](https://bkash-ecommerce.vercel.app)**
+- **Family Tapestry** `private` — Collaborative graph-based family tree: real-time presence, timeline, map, generations, sub-tree collapse, multi-format export. Next.js + TypeScript + Supabase (RLS) + React Flow + Leaflet. **239 tests, 27.8k LOC, 7 migrations.**
+  **Live site:** <https://family-tapestry-nine.vercel.app> — *open to everyone, source stays private*
+- **bKash + WhatsApp Storefront** `private` — Sellable e-commerce template for Bangladeshi local shops: manual bKash payment, WhatsApp order flow, stock, categories, admin dashboard.
+  **Live site:** <https://bkash-ecommerce.vercel.app>
 - **[YaleDoc](https://github.com/yaleedhaque/yale-doc-yaleed)** — Self-encrypting documents in **one HTML file**. AES-256-GCM, PBKDF2-SHA256, encrypted version history, attachments, English/বাংলা UI, zero dependencies, opens offline anywhere. **Verified on Chromium, Firefox and WebKit.**
 - **[ProctorFree](https://github.com/yaleedhaque/proctor-free)** — Browser-based exam proctoring where all AI runs client-side. No servers, no tracking.
 
