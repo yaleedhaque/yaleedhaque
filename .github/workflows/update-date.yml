@@ -21,7 +21,12 @@ jobs:
       - name: Update the Last updated date
         run: |
           today=$(date -u +%Y-%m-%d)
-          sed -i "s|<!--DATE-->.*<!--/DATE-->|<!--DATE-->_Last updated: ${today}_<!--/DATE-->|" README.md
+          # Rewrite only the date inside the marker so surrounding wording survives.
+          if grep -q '<!--DATE-->' README.md; then
+            sed -i "s|\(<!--DATE-->.*\)[0-9]\{4\}-[0-9]\{2\}-[0-9]\{2\}\(.*<!--/DATE-->\)|\1${today}\2|" README.md
+          else
+            printf '\n<!--DATE-->_Md. Yaleed Haque · Dhaka, Bangladesh · Updated %s_<!--/DATE-->\n' "$today" >> README.md
+          fi
 
       - name: Commit and push if changed
         run: |
