@@ -83,7 +83,7 @@ I write tests because the work is concurrency- and latency-sensitive, not becaus
   **Live site:** <https://family-tapestry-nine.vercel.app>
 - **bKash + WhatsApp Storefront** `private` — Sellable e-commerce template for Bangladeshi local shops: manual bKash payment, WhatsApp order flow, stock, categories, admin dashboard.
   **Live site:** <https://bkash-ecommerce.vercel.app>
-- **KhabarBD** `private` — A free, community-first food & drink atlas of Bangladesh: **18,177 places across 5,919 admin regions**, dish-level rankings, reviews, XP and badges. Next.js + local-first data layer.
+- **KhabarBD** `private` — A free, community-first food & drink atlas of Bangladesh: **18,177 places across 5,919 admin regions**, dish-level rankings, reviews, XP and badges. Next.js + Supabase (auth + row-level security) with **roles** (owner / admin / editor / user) and a moderation dashboard.
   **Live site:** <https://khabar-bd-seven.vercel.app>
 - **ঘুরে রাঙাও (Ghure Rangaao)** `private` — Offline-first Bengali travel planner: explore where to go, discover hidden gems, plan a trip, and collect a shareable travel passport. All in the browser.
   **Live site:** <https://yaleedhaque.github.io/downloads/sites/ghure-rangaao/>
