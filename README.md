@@ -64,10 +64,14 @@ I write tests because the work is concurrency- and latency-sensitive, not becaus
 - **[NetSpeedBar](https://yaleedhaque.github.io)** — Always-on-top taskbar network overlay with single named-mutex instance handling. *(C#)*
 
 ### Android / Kotlin
+- **NovaCalc** `private` — Scientific calculator with an fx-991-style keypad, function graphing, equation solver, QR read & generate, and a periodic table. No ads, no tracking, zero cloud. *(Kotlin + Compose)*
+  **Download:** <https://yaleedhaque.github.io/downloads/files/NovaCalc-v1.1.0.apk>
+- **Lumen** `private` — Offline torch: LED, screen light, strobe, SOS, Morse send, and **Morse decode from the camera** via ML Kit. *(Kotlin + Compose)*
+  **Download:** <https://yaleedhaque.github.io/downloads/files/Lumen-v1.2.1.apk>
+- **AetherCompass** `private` — Feature-packed offline compass with accurate bearings. *(Kotlin + Compose)*
+  **Download:** <https://yaleedhaque.github.io/downloads/files/AetherCompass-v1.2.0.apk>
 - **BluetoothRemoteHid** `private` — Turn a phone into a wireless keyboard, touchpad, air-mouse and media remote for any PC over **Bluetooth Classic + LE HID**. No host software, no cloud. Implemented the HID report-descriptor and pairing layers directly. *(Kotlin)*
 - **GamePadEcosystem** `private` — Android phones as wireless Xbox 360 controllers. **Sub-5 ms latency**, offline multiplayer, zero cloud. *(C# host + Kotlin)*
-- **Lumen** `private` — Offline torch: LED, screen light, strobe, SOS, Morse send, and **Morse decode from the camera** via ML Kit. *(Kotlin + Compose)*
-- **AetherCompass** `private` — Feature-packed offline compass with accurate bearings. *(Kotlin + Compose)*
 - **OmniFetch-Android** `private` — Search, stream and download video on-device with a bundled yt-dlp + ffmpeg engine and a gesture player. *(Kotlin + Compose)*
 
 ### Web & product
@@ -75,6 +79,8 @@ I write tests because the work is concurrency- and latency-sensitive, not becaus
   **Live site:** <https://family-tapestry-nine.vercel.app> — *open to everyone, source stays private*
 - **bKash + WhatsApp Storefront** `private` — Sellable e-commerce template for Bangladeshi local shops: manual bKash payment, WhatsApp order flow, stock, categories, admin dashboard.
   **Live site:** <https://bkash-ecommerce.vercel.app>
+- **ঘুরে রাঙাও (Ghure Rangaao)** `private` — Offline-first Bengali travel planner: explore where to go, discover hidden gems, plan a trip, and collect a shareable travel passport. Six keyboard-free screens wrapped around a WebGL scene, all in the browser.
+  **Live site:** <https://yaleedhaque.github.io/downloads/sites/ghure-rangaao/> — *source stays private*
 - **[YaleDoc](https://github.com/yaleedhaque/yale-doc-yaleed)** — Self-encrypting documents in **one HTML file**. AES-256-GCM, PBKDF2-SHA256, encrypted version history, attachments, English/বাংলা UI, zero dependencies, opens offline anywhere. **Verified on Chromium, Firefox and WebKit.**
 - **[ProctorFree](https://github.com/yaleedhaque/proctor-free)** — Browser-based exam proctoring where all AI runs client-side. No servers, no tracking.
 
@@ -128,4 +134,4 @@ I'm happy to do a technical deep-dive on any project, walk through the architect
   <img src="https://grs-lac.vercel.app/api/top-langs/?username=yaleedhaque&layout=compact&theme=tokyonight&hide_border=true&langs_count=8" alt="Top languages" height="150">
 </p>
 
-<!--DATE-->_Md. Yaleed Haque · Dhaka, Bangladesh · Updated 2026-10-05_<!--/DATE-->
+<!--DATE-->_Md. Yaleed Haque · Dhaka, Bangladesh · Updated 2026-10-12_<!--/DATE-->
