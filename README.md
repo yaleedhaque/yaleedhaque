@@ -54,46 +54,61 @@ I write tests because the work is concurrency- and latency-sensitive, not becaus
 
 ## Selected work
 
-> **Note on access:** source for several projects below is private by default. Each is marked `private` — the code is available on request, and I can walk through the architecture live. Repositories without the marker are public and open to review right now.
+> **Note on access:** most source is private by default, marked `private` below — the code is available on request and I can walk through the architecture live. Every project that is live or downloadable links straight to the product; the few public repos are open to review now.
 
 ### Desktop automation & AI agents
-- **[StarkAgent](https://github.com/yaleedhaque/StarkAgent)** — Fully autonomous Windows desktop control agent. **295+ commands** across mouse, keyboard, OCR, UIA tree-walking, file operations, web fetch, and email, exposed over a local TCP/JSON API. Includes a WhatsApp driver and MCP server. *(C# · 15.5k LOC · MIT)*
-- **yale-agent** `private` — Wayland-native Linux desktop agent: **68 tools** in 11 categories (vision click-by-text, browser, desktop, media, audio, filesystem, system) via MCP server, CLI, and web dashboard. Solved Wayland input injection and GNOME screenshot access without a display server hack. *(Python)*
+- **[StarkAgent](https://github.com/yaleedhaque/StarkAgent)** — Fully autonomous Windows desktop control agent. **295+ commands** across mouse, keyboard, OCR, UIA tree-walking, file operations, web fetch, and email, over a local TCP/JSON API. Includes a WhatsApp driver and MCP server. *(C# · 15.5k LOC · MIT)*
+- **yale-agent** `private` — Wayland-native Linux desktop agent: **68 tools** in 11 categories (vision click-by-text, browser, desktop, media, audio, filesystem, system) via MCP server, CLI, and web dashboard. *(Python)*
 - **[AI Browser Toolkit](https://github.com/yaleedhaque/Ai-Browser-Toolkit)** — Let an AI agent drive real Chrome or Edge over a JSON API. One server, one persistent profile, full DOM control. **347 tests.** *(Python · Apache-2.0)*
-- **precise-hands** `private` — MCP server for exact-coordinate automation: AT-SPI and XDG portal for Linux desktop, uiautomator bounds → `input tap` for Android. Built because screenshot-guessing clicks caused misclicks. *(Python)*
-- **[NetSpeedBar](https://yaleedhaque.github.io)** — Always-on-top taskbar network overlay with single named-mutex instance handling. *(C#)*
+- **precise-hands** `private` — Exact-coordinate MCP eye+hand: AT-SPI / XDG portal for Linux, uiautomator bounds → `input tap` for Android. *(Python)*
+- **NetSpeedBar** `private` — Always-on-top taskbar network overlay with single named-mutex instance handling. *(C#)*
+  **Download:** <https://yaleedhaque.github.io/downloads/files/NetSpeedBar.exe>
 
 ### Android / Kotlin
-- **NovaCalc** `private` — Scientific calculator with an fx-991-style keypad, function graphing, equation solver, QR read & generate, and a periodic table. No ads, no tracking, zero cloud. *(Kotlin + Compose)*
+- **NovaCalc** `private` — Scientific calculator: fx-991-style keypad, function graphing, equation solver, QR read & generate, and a periodic table. No ads, no tracking, zero cloud. *(Kotlin + Compose)*
   **Download:** <https://yaleedhaque.github.io/downloads/files/NovaCalc-v1.1.0.apk>
 - **Lumen** `private` — Offline torch: LED, screen light, strobe, SOS, Morse send, and **Morse decode from the camera** via ML Kit. *(Kotlin + Compose)*
   **Download:** <https://yaleedhaque.github.io/downloads/files/Lumen-v1.2.1.apk>
 - **AetherCompass** `private` — Feature-packed offline compass with accurate bearings. *(Kotlin + Compose)*
-  **Download:** <https://yaleedhaque.github.io/downloads/files/AetherCompass-v1.2.0.apk>
-- **BluetoothRemoteHid** `private` — Turn a phone into a wireless keyboard, touchpad, air-mouse and media remote for any PC over **Bluetooth Classic + LE HID**. No host software, no cloud. Implemented the HID report-descriptor and pairing layers directly. *(Kotlin)*
+  **Download:** <https://yaleedhaque.github.io/downloads/files/AetherCompass-v1.2.0.apk> · **offline maps & routing packs:** <https://github.com/yaleedhaque/aether-maps-packs/releases/tag/maps-packs>
+- **BluetoothRemoteHid** `private` — Turn a phone into a wireless keyboard, touchpad, air-mouse and media remote for any PC over **Bluetooth Classic + LE HID**. No host software, no cloud. *(Kotlin)*
+  **Download:** <https://yaleedhaque.github.io/downloads/files/BluetoothRemoteHid-v1.2.6.apk>
 - **GamePadEcosystem** `private` — Android phones as wireless Xbox 360 controllers. **Sub-5 ms latency**, offline multiplayer, zero cloud. *(C# host + Kotlin)*
-- **OmniFetch-Android** `private` — Search, stream and download video on-device with a bundled yt-dlp + ffmpeg engine and a gesture player. *(Kotlin + Compose)*
+  **Download:** <https://yaleedhaque.github.io/downloads/files/GamePad-v1.2.0.apk>
+- **OmniFetch-Android** `private` — On-device video search, stream and download with a bundled yt-dlp + ffmpeg engine. *(Kotlin + Compose)*
+  **Download:** <https://yaleedhaque.github.io/downloads/files/OmniFetch-Android-v1.2.5-arm64.apk>
 
 ### Web & product
 - **Family Tapestry** `private` — Collaborative graph-based family tree: real-time presence, timeline, map, generations, sub-tree collapse, multi-format export. Next.js + TypeScript + Supabase (RLS) + React Flow + Leaflet. **239 tests, 27.8k LOC, 7 migrations.**
-  **Live site:** <https://family-tapestry-nine.vercel.app> — *open to everyone, source stays private*
+  **Live site:** <https://family-tapestry-nine.vercel.app>
 - **bKash + WhatsApp Storefront** `private` — Sellable e-commerce template for Bangladeshi local shops: manual bKash payment, WhatsApp order flow, stock, categories, admin dashboard.
   **Live site:** <https://bkash-ecommerce.vercel.app>
-- **ঘুরে রাঙাও (Ghure Rangaao)** `private` — Offline-first Bengali travel planner: explore where to go, discover hidden gems, plan a trip, and collect a shareable travel passport. Six keyboard-free screens wrapped around a WebGL scene, all in the browser.
-  **Live site:** <https://yaleedhaque.github.io/downloads/sites/ghure-rangaao/> — *source stays private*
-- **[YaleDoc](https://github.com/yaleedhaque/yale-doc-yaleed)** — Self-encrypting documents in **one HTML file**. AES-256-GCM, PBKDF2-SHA256, encrypted version history, attachments, English/বাংলা UI, zero dependencies, opens offline anywhere. **Verified on Chromium, Firefox and WebKit.**
-- **[ProctorFree](https://github.com/yaleedhaque/proctor-free)** — Browser-based exam proctoring where all AI runs client-side. No servers, no tracking.
+- **KhabarBD** `private` — A free, community-first food & drink atlas of Bangladesh: **18,177 places across 5,919 admin regions**, dish-level rankings, reviews, XP and badges. Next.js + local-first data layer. *(build complete · private preview on request)*
+- **ঘুরে রাঙাও (Ghure Rangaao)** `private` — Offline-first Bengali travel planner: explore where to go, discover hidden gems, plan a trip, and collect a shareable travel passport. All in the browser.
+  **Live site:** <https://yaleedhaque.github.io/downloads/sites/ghure-rangaao/>
+- **Thikana (ঠিকানা)** `private` — Offline-first Bangladeshi rent & mess finder. *(private beta)*
+- **ProctorFree** `private` — Browser-based exam proctoring; all AI runs client-side — no servers, no tracking, no accounts.
+  **Live app:** <https://yaleedhaque.github.io/downloads/sites/proctorfree/>
+- **YaleDoc** `private` — Self-encrypting documents in **one HTML file**. AES-256-GCM, PBKDF2-SHA256, encrypted version history, attachments, English/বাংলা UI, opens offline anywhere.
+  **Download:** <https://yaleedhaque.github.io/downloads/files/YaleDoc-Blank.ydoc.html>
+- **Haque Code** `private` — Offline universal barcode suite, plus the *Haque Vision* plugin (photo-in-QR, auto-open, recreate) and an Android wrapper. *(HTML + Kotlin)*
 
 ### Systems & networking
 - **[YaleVPN-PC](https://github.com/yaleedhaque/YaleVPN-PC)** — Desktop WireGuard + Cloudflare WARP client for Linux and Windows: on-device keys, egress IP rotation, kill switch, DNS pinning, GUI + CLI. *(Python)*
 - **[yalevpn](https://github.com/yaleedhaque/yalevpn)** — WireGuard VPN + Shizuku integration research lab for Android. *(Kotlin)*
 - **stark-hotspot** `private` — Run a WiFi hotspot while staying connected to WiFi: concurrent STA+AP on one radio (hostapd + dnsmasq + NAT). *(Shell)*
 - **Edge** `private` — Self-hosted on-device speech-to-text. Word-timed transcripts with clickable words, txt/srt/vtt export, faster-whisper + ffmpeg. No cloud, no API keys. *(Python)*
-- **haque-squad** `private` — Authoritative-server multiplayer arena shooter (Godot 4) with phone browser touch controllers over WebSocket. *(GDScript)*
+
+### Games
+- **haque-squad** `private` — Authoritative-server multiplayer arena shooter (Godot 4) with phone browser touch controllers over WebSocket. 13 weapons, 5 maps, FFA/TDM/COOP, bots. *(GDScript)*
 
 ### AI tooling & agent infrastructure
 - **opencode-dotfiles** `private` — Version-controlled AI agent brain: config, scripts, skills, memory, research, systemd units. Secrets handled through an encrypted vault with one passphrase held outside the repo.
 - **opencode-setup-kit** `private` · **opencode-free-fallback** `private` · **yaleed-install** `private` — One-command AI workstation provisioning, free-tier model fallback chains, and full environment restore.
+
+### Portfolio & presence
+- **[Portfolio](https://yaleedhaque.github.io)** — Project index, plus WebGL portfolios: [night-temple](https://yaleedhaque.github.io/portfolio/) · [local-network](https://yaleedhaque.github.io/portfolio-hw/).
+- **[Downloads hub](https://yaleedhaque.github.io/downloads/)** — Every public build in one place: apps, installers and standalone files. Source stays private.
 
 ---
 
