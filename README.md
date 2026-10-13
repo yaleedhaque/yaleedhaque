@@ -150,4 +150,4 @@ I'm happy to do a technical deep-dive on any project, walk through the architect
   <img src="https://grs-lac.vercel.app/api/top-langs/?username=yaleedhaque&layout=compact&theme=tokyonight&hide_border=true&langs_count=8" alt="Top languages" height="150">
 </p>
 
-<!--DATE-->_Md. Yaleed Haque · Dhaka, Bangladesh · Updated 2026-10-12_<!--/DATE-->
+<!--DATE-->_Md. Yaleed Haque · Dhaka, Bangladesh · Updated 2026-10-13_<!--/DATE-->
